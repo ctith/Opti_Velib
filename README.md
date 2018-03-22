@@ -86,4 +86,12 @@ Document JSON sous forme de clé-valeur permettant l'aggrégation de données ma
   - la redondance: les données statiques sont représentées plusieurs fois
   
 # Sources de données
-
+- [API Velib - temps réel](https://developer.jcdecaux.com/#/opendata/vls?page=dynamic)
+- [API Météo - temps réel et prévisions](https://openweathermap.org/api)
+- [API STIF - temps réel](https://opendata.stif.info/page/home/)
+- [API Trafic routier - temps réel](https://opendata.paris.fr/explore/dataset/comptages-routiers-permanents/information/)
+- [API Movement uber](https://d3i4yxtzktqr9n.cloudfront.net/web-movement/static/pdfs/Movement-TravelTimesMethodology-76002ded22.pdf)
+- [API Manifestation sportives](https://www.manifestationsportive.fr/api/)
+- [API Evenements](https://openagenda.zendesk.com/hc/fr/categories/115000324454-API)
+- [API Salles et festivals](http://www.sowprog.com/api/)
+- [API Paris Events](https://opendata.paris.fr/explore/dataset/evenements-a-paris/?disjunctive.tags&disjunctive.placename&disjunctive.city)
