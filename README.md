@@ -5,8 +5,11 @@
 Le projet consiste à récupérer des données en temps réel des API concernant les velibs (puis ceux de la météo, du trafic routier, des transports, des manifestations culturelles) afin de pouvoir faire une prédiction du nombre de vélo à disposition ou manquant par station pour un jour et une heure donnée.
 
 ## Target
+### Cible marketing
 - JCDecaux, entreprise proposant des Velib
+### Cibles utilisatrices
 - Les usagers du Velib
+- Le personnel de JCDecaux pour la redistribution des vélos
 - Les entreprises partenaires/concurrentes du Velib
 - Les services publiques des villes concernées
 
@@ -30,7 +33,7 @@ Le projet consiste à récupérer des données en temps réel des API concernant
 - prévoir les stations en rupture de vélos pour pouvoir proposer leurs services 
   - être physiquement au bon moment au bon endroit
   - faire du marketing ciblé (SEA sur google, publication facebook sponsorisée) selon le lieu géographique 
-  => le marketing pourra être affiné dans la version V2 du projet lorsqu'on récupèrera les données anonymisées sur les usagers du Velib
+  => le marketing pourra être affiné dans la version V2 du projet si on peut récupérer des données anonymisées sur les usagers du Velib
 
 ### Service public 
 - mieux gérer les flux de circulation de la ville
