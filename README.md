@@ -6,10 +6,10 @@ Le projet consiste à récupérer des données en temps réel des API concernant
 
 ## Target
 ### Cible marketing
-- JCDecaux, entreprise proposant des Velib
+- entreprise proposant des Velib (JCDecaux ou Smovengo)
 ### Cibles utilisatrices
 - Les usagers du Velib
-- Le personnel de JCDecaux pour la redistribution des vélos
+- Le personnel en charge de la redistribution des vélos
 - Les entreprises partenaires/concurrentes du Velib
 - Les services publiques des villes concernées
 
@@ -21,10 +21,11 @@ Le projet consiste à récupérer des données en temps réel des API concernant
 - dans quels quartiers y a t-il le plus d'usager de vélib ? et à quels moments de la journée ?
 
 ## Valeur ajoutée
-### Pour JCDecaux
+> un modèle prédictif du nombre de vélos et de stations disponibles pour une date et heure donnée
+### Pour les entreprises de Vélib
 - prévoir un planning optimisé (+ court chemin) à de réapprovisionnement et de redistribution de vélos d'après le % de vélo manquant par station qui varie selon la météo, le trafic routier, état des transports (métro, RER) et des manifestations culturelles = gain d'efficacité + économies sur les promotions proposées aux usagers
 
-### Pour les usagers
+### Pour les usagers du vélib
 - prévoir à un jour et une heure donnée si :
   - un vélo sera disponible à la station demandée
   - une borne sera disponible à la station d'arrivée
