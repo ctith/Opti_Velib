@@ -17,6 +17,7 @@ Le projet consiste à récupérer des données en temps réel des API concernant
 - quelles sont les stations les plus demandées pour les velib au cours du temps ?
 - quelles sont bornes les plus demandées au cours du temps ?
 - quel est le plus court chemin pour remplir les stations de manière optimale ?
+- quel est le plus court chemin pour se rendre à une destination ayant à proximité, une station de vélo avec des bornes libres ?
 - dans quels quartiers y a t-il le plus d'usager de vélib ? et à quels moments de la journée ?
 
 ## Valeur ajoutée
