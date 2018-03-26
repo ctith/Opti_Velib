@@ -1,8 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-import csv
 
-# page web bifidus actif de leclerc
+# structure de la page html
 url = "https://nipil.org/jcdecaux_history_api_exports/"
 
 """
