@@ -2,7 +2,7 @@
 
 ## Description
 
-Le projet consiste à récupérer des données en temps réel des API concernant les velibs (puis ceux de la météo, du trafic routier, des transports, des manifestations culturelles) afin de pouvoir faire une prédiction du nombre de vélo à disposition ou manquant par station pour un jour et une heure donnée.
+Le projet consiste à récupérer des données historiques puis en temps réel des API concernant les velibs (puis ceux de la météo, du trafic routier, des transports, des manifestations culturelles) afin de pouvoir faire une prédiction du nombre de vélo à disposition ou manquant par station pour un jour et une heure donnée.
 
 ## Target
 ### Cible marketing
@@ -68,12 +68,16 @@ Utilisation de HDFS pour pouvoir stocker les données et permettre à Spark de l
 - on n'utilise pas MongoDB car même si la BDD permet de stocker et d'effectuer des traitements sur les données, il aurait fallu faire importer ces données vers HDFS pour pouvoir les traiter avec Spark. On peut légitimer l'utilisation de MongoDB en tant que BDD backup du projet.
 
 ### Data Processing
+Utilisation de Hive
+- connexion avec Talend MDM pour les analyses de la data gouvernance
+- connexion avec Tableau Software pour la data vizualisation
+
 Utilisation de Spark
 - Spark SQL pour effectuer des requêtes
 - Spark ML pour réaliser des modèles prédictifs et de la visualisation 
   
 ### Data Vizualisation 
-Utilisation de D3JS pour la visualisation des données
+Utilisation de Tableau pour la visualisation des données
 
 ## Traitement de la donnée
 ### Collecte
